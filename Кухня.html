@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+
+<style>
+	P.blocktext {
+		margin-left: auto;
+		margin-right: auto;
+		width: 16em
+	}
+
+	div.container3 {
+		height: 4em;
+		position: relative
+	}
+
+	/* 1 */
+	div.container3 p {
+		margin: 0;
+		position: absolute;
+		/* 2 */
+		top: 50%;
+		/* 3 */
+		transform: translate(0, -50%)
+	}
+</style>
+
+<body>
+
+	<P class="blocktext">Этот довольно узкий блок текста центрирован. Заметьте, что строки внутри
+		блока не центрированы (они выровнены влево), в отличие от предыдущего примера.
+	</P>
+
+	<picture>
+		<source srcset="mdn-logo-wide.png" media="(min-width: 600px)">
+		<img src="mdn-logo-narrow.png" alt="MDN">
+	</picture>
+
+	<div class="container3">
+		<p>Этот абзац…
+
+	</div>
+
+	Планы?
+
+	<p>
+		Новый дизайн?
+		Очки Аппл
+		Второй айфон
+		Аппл ТВ
+		Apple Bund
+		Bundle
+		2 Трлн
+	</p>
+
+	<section>
+		тут секция
+	</section>
+
+	<main>
+		главная секция
+	</main>
+
+	<progress>
+
+	</progress>
+
+</body>
+
+</html>
